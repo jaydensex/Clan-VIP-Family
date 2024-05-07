@@ -1,0 +1,183 @@
+@media only screen and (max-width: 600px) {
+    /* Ajustes para dispositivos móviles */
+    /* Ajusta la fila de imágenes para que se envuelva y se centre */
+    .image-row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* Ajustes para los contenedores de imagen en dispositivos móviles */
+    .image-container {
+        flex-basis: 90%; /* Ocupa el 90% del espacio disponible */
+        text-align: center; /* Centra el contenido */
+        margin-top: 20px; /* Espacio superior */
+        margin-right: 0; /* Elimina el margen derecho */
+    }
+
+    /* Ajustes para las imágenes dentro de los contenedores en dispositivos móviles */
+    .image-container img {
+        max-width: 80%; /* Reducir el tamaño de la imagen */
+    }
+
+    /* Ajustes para el texto debajo de las imágenes en dispositivos móviles */
+    .image-container p {
+        font-size: 12px; /* Reducir el tamaño del texto */
+    }
+}
+
+/* Estilos generales */
+
+/* Estilos para el cuerpo de la página */
+body {
+    margin: 0; /* Elimina los márgenes */
+    padding: 0; /* Elimina el relleno */
+    background-color: #000000; /* Color de fondo negro */
+    color: #ffffff; /* Color de texto blanco */
+}
+
+/* Estilos para la barra de navegación */
+nav {
+    display: flex; /* Utiliza un contenedor flexible */
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    align-items: center; /* Alinea los elementos verticalmente */
+    background-color: #000000; /* Color de fondo negro */
+    padding: 20px; /* Relleno de 20 píxeles */
+    margin-top: -6%; /* Mover hacia arriba un 6% */
+}
+
+/* Estilos para la lista de navegación */
+nav ul {
+    list-style-type: none; /* Elimina los puntos de lista */
+    margin: 0; /* Elimina los márgenes */
+    padding: 0; /* Elimina el relleno */
+    display: flex; /* Utiliza un contenedor flexible */
+}
+
+/* Estilos para los elementos de la lista de navegación */
+nav ul li {
+    margin-right: 30px; /* Márgenes derechos de 30 píxeles entre elementos */
+}
+
+/* Estilos para el último elemento de la lista de navegación */
+nav ul li:last-child {
+    margin-right: 0; /* Elimina el margen derecho del último elemento */
+}
+
+/* Estilos para los enlaces de la lista de navegación */
+nav ul li a {
+    color: white; /* Color de texto blanco */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    font-size: 18px; /* Tamaño de fuente de 18 píxeles */
+}
+
+/* Estilos para el logo */
+.logo {
+    margin-left: -100px; /* Mover hacia la izquierda 100 píxeles */
+    margin-top: 50px; /* Mover hacia arriba 50 píxeles */
+}
+
+/* Estilos para la imagen del logo */
+.logo img {
+    max-width: 500px; /* Ancho máximo de la imagen de 500 píxeles */
+}
+
+/* Estilos para las imágenes */
+img {
+    display: block; /* Mostrar como bloque */
+    max-height: 800px; /* Altura máxima de 800 píxeles */
+    width: 100%; /* Ancho del 100% */
+    margin-top: -70px; /* Mover hacia arriba 70 píxeles */
+    margin-bottom: 20px; /* Margen inferior de 20 píxeles */
+}
+
+/* Estilos para los títulos */
+h2 {
+    color: white; /* Color de texto blanco */
+    text-align: center; /* Centrar el texto */
+    margin-top: 40px; /* Margen superior de 40 píxeles */
+}
+
+
+
+/* Estilos para la fila de imágenes */
+.image-row {
+    display: flex; /* Utiliza un contenedor flexible */
+    justify-content: space-around; /* Distribuye el espacio alrededor de los elementos */
+    margin-top: 40px; /* Margen superior de 40 píxeles */
+}
+
+/* Estilos para los contenedores de imagen */
+.image-container {
+    flex-basis: 30%; /* Tamaño base flexible del 30% */
+    text-align: center; /* Centra el contenido */
+    margin-top: 20px; /* Margen superior de 20 píxeles */
+    margin-right: 30px; /* Margen derecho de -530 píxeles */
+}
+
+/* Estilos para las imágenes dentro de los contenedores */
+.image-container img {
+    max-width: 70%; /* Ancho máximo del 70% */
+    max-height: 500px; /* Altura máxima de 500 píxeles */
+    margin: 0 auto; /* Margen automático a los lados */
+}
+
+/* Estilos para el texto debajo de las imágenes */
+.image-container p {
+    color: #999; /* Color de texto gris */
+    font-size: 14px; /* Tamaño de fuente de 14 píxeles */
+}
+
+/* Estilos para el último contenedor de imagen */
+.image-container:last-child {
+    margin-right: 0; /* Elimina el margen derecho */
+}
+
+
+
+/* Estilos para la descripción */
+.description {
+    background-color: #000000; /* Color de fondo negro */
+    padding: 20px; /* Relleno de 20 píxeles */
+    margin-top: 20px; /* Margen superior de 20 píxeles */
+    text-align: center; /* Centra el texto */
+}
+
+/* Estilos para el título de la descripción */
+.description h3 {
+    color: #333; /* Color de texto gris oscuro */
+}
+
+/* Estilos para el párrafo de la descripción */
+.description p {
+    color: #666; /* Color de texto gris */
+    font-size: 16px; /* Tamaño de fuente de 16 píxeles */
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #c4f59a; /* Color de fondo verde claro */
+    padding: 20px; /* Relleno de 20 píxeles */
+    text-align: center; /* Centra el texto */
+    color: #333; /* Color de texto gris oscuro */
+    left: 0; /* Posición izquierda de 0 */
+    bottom: 0; /* Posición inferior de 0 */
+    width: 100%; /* Ancho del 100% */
+}
+
+/* Estilos para el contenido del pie de página */
+.footer-content {
+    max-width: 900px; /* Ancho máximo de 900 píxeles */
+    margin: 0 auto; /* Margen automático a los lados */
+}
+
+/* Estilos para la línea del pie de página */
+.footer-line {
+    display: flex; /* Utiliza un contenedor flexible */
+    flex-direction: column; /* Dirección de columna */
+    margin-bottom: 5px; /* Margen inferior de 5 píxeles */
+}
+
+/* Estilos para el texto del pie de página */
+.footer-line span {
+    font-size: 18px; /* Tamaño de fuente de 18 píxeles */
+}

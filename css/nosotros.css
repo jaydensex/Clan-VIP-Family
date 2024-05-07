@@ -1,0 +1,73 @@
+/* Estilos generales */
+body, html {
+    margin: 0; /* Elimina el margen predeterminado */
+    padding: 0; /* Elimina el relleno predeterminado */
+    height: 100%; /* Ajusta la altura del cuerpo y HTML al 100% del viewport */
+}
+
+/* Contenedor principal */
+.container {
+    display: flex; /* Utiliza el modelo de caja flexible para alinear elementos */
+    height: 100vh; /* Altura del contenedor al 100% del viewport */
+}
+
+
+/* Sección VIP */
+.vip-section {
+    flex: 1; /* Ocupa el espacio restante en el contenedor */
+    display: flex; /* Utiliza el modelo de caja flexible */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+    background-color: #000000; /* Color de fondo negro */
+    color: #ffffff; /* Color de texto blanco */
+}
+
+/* Título VIP */
+.vip-section h1 {
+    font-size: 150px; /* Tamaño de fuente del título VIP */
+}
+
+/* Sección "Sobre Nosotros" */
+.about-section {
+    flex: 1; /* Ocupa el espacio restante en el contenedor */
+    display: flex; /* Utiliza el modelo de caja flexible */
+    flex-direction: column; /* Establece la dirección de los elementos como columna */
+    justify-content: center; /* Centra verticalmente el contenido */
+    align-items: center; /* Centra horizontalmente el contenido */
+    padding: 20px; /* Espaciado interno */
+    background-color: #F5F5DC; /* Color de fondo crema o beige */
+}
+
+/* Título "Sobre Nosotros" */
+.about-section h2 {
+    color: #000000; /* Color del texto del título */
+    text-align: center; /* Alineación del texto al centro */
+    font-size: 25px; /*Tamaño de fuente del h2*/
+}
+
+/* Párrafo "Sobre Nosotros" */
+.about-section p {
+    color: #333333; /* Color del texto del párrafo */
+    font-size: 20px; /* Tamaño de fuente del párrafo */
+    line-height: 1.5; /* Altura de línea del párrafo */
+    text-align: center; /* Alineación del texto al centro */
+}
+
+/* Estilos para el botón */
+
+.btn {
+    position: fixed; /* Establece la posición fija */
+    bottom: 20px; /* Distancia desde la parte inferior de la ventana del navegador */
+    left: 50%; /* Posición horizontal centrada */
+    transform: translateX(-80%); /* Centra el botón horizontalmente */
+    background-color: #e00000; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    text-decoration: none; /* Elimina el subrayado del texto */
+    border-radius: 5px; /* Añade esquinas redondeadas al botón */
+    transition: background-color 0.3s ease; /* Transición suave para el cambio de color de fondo */
+}
+
+.btn:hover {
+    background-color: #1c7907; /* Cambia el color de fondo del botón al pasar el cursor por encima */
+}
